@@ -1,0 +1,29 @@
+{
+  "name": "canvas-to-gif",
+  "version": "1.0.0",
+  "description": "Create gifs from a canvas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeLepper/canvas-to-gif.git"
+  },
+  "keywords": [
+    "canvas",
+    "gif",
+    "animated",
+    "gif",
+    "context"
+  ],
+  "author": "Joe Lepper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joeLepper/canvas-to-gif/issues"
+  },
+  "homepage": "https://github.com/joeLepper/canvas-to-gif#readme",
+  "dependencies": {
+    "js-gif": "^1.0.0"
+  }
+}
