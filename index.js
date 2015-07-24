@@ -6,7 +6,7 @@ module.exports = function canvasToGif (canvas, opts, cb) {
   var gif = new Gif()
   var ctx = canvas.getContext('2d')
   var frames = opts.frames || 10
-  var delay = opts.delay || 0
+  var delay = opts.delay || 100
 
   gif.setRepeat(opts.repeat || 0)
   gif.setDelay(delay)
